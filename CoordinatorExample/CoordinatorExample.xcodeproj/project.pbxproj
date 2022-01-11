@@ -95,10 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				D40E5390278AD91700DA2578 /* Coordinator */,
-				D40E537C278AD90D00DA2578 /* AppDelegate.swift */,
 				D40E5399278AE10400DA2578 /* Simple */,
 				D40E539A278AE11300DA2578 /* Tabbar */,
-				D4C2BDB7278D450100CDAFE2 /* Medium */,
+				D4FA666D278D80C20019DD1A /* Helper */,
 				D40E5382278AD90D00DA2578 /* Main.storyboard */,
 				D40E5385278AD90E00DA2578 /* Assets.xcassets */,
 				D40E5387278AD90E00DA2578 /* LaunchScreen.storyboard */,
@@ -131,10 +130,8 @@
 		D40E539A278AE11300DA2578 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
-				D4C2BDBA278D470A00CDAFE2 /* AppCoordinator.swift */,
-				D4C2BDC1278D49FD00CDAFE2 /* TabBarPage.swift */,
-				D4C2BDC3278D4ABF00CDAFE2 /* TabBarCoordinator.swift */,
-				D4C2BDC5278D5BF300CDAFE2 /* MainTabBarController.swift */,
+				D4FA666C278D80BA0019DD1A /* App */,
+				D4FA666B278D80A90019DD1A /* Tab */,
 				D4C2BDC0278D49EF00CDAFE2 /* Login */,
 				D40E53AD278C042100DA2578 /* First */,
 				D40E53AE278C043100DA2578 /* Second */,
@@ -180,13 +177,6 @@
 			path = FirstDetail;
 			sourceTree = "<group>";
 		};
-		D4C2BDB7278D450100CDAFE2 /* Medium */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Medium;
-			sourceTree = "<group>";
-		};
 		D4C2BDC0278D49EF00CDAFE2 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +184,32 @@
 				D4C2BDBC278D487500CDAFE2 /* LoginViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		D4FA666B278D80A90019DD1A /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				D4C2BDC3278D4ABF00CDAFE2 /* TabBarCoordinator.swift */,
+				D4C2BDC5278D5BF300CDAFE2 /* MainTabBarController.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		D4FA666C278D80BA0019DD1A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D4C2BDBA278D470A00CDAFE2 /* AppCoordinator.swift */,
+				D40E537C278AD90D00DA2578 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D4FA666D278D80C20019DD1A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D4C2BDC1278D49FD00CDAFE2 /* TabBarPage.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

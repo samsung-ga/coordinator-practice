@@ -4,6 +4,7 @@
 //
 //  Created by Wody on 2022/01/11.
 //
+// 출처 : - https://somevitalyz123.medium.com/coordinator-pattern-with-tab-bar-controller-33e08d39d7d
 
 import UIKit
 
@@ -27,14 +28,10 @@ extension Coordinator {
   }
 }
 
-// MARK: - CoordinatorOutput
-/// Delegate protocol helping parent Coordinator know when its child is ready to be finished.
 protocol CoordinatorFinishDelegate: AnyObject {
   func coordinatorDidFinish(childCoordinator: Coordinator)
 }
 
-// MARK: - CoordinatorType
-/// Using this structure we can define what type of flow we can use in-app.
 enum CoordinatorType {
   case app, login, tab
 }
