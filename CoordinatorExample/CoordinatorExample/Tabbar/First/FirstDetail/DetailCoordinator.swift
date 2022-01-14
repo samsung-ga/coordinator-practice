@@ -8,11 +8,12 @@
 import Foundation
 import UIKit
 
-protocol TabFirstDetailCoordinatorProtocol: Coordinator {
+protocol DetailCoordinatorProtocol: Coordinator {
   // TODO: 화면 이동
-  func showTabFirstDetailViewController()
+  func showDetailViewController()
 }
-class TabFirstDetailCoordinator: TabFirstDetailCoordinatorProtocol {
+
+class DetailCoordinator: DetailCoordinatorProtocol {
  
   var finishDelegate: CoordinatorFinishDelegate?
   
@@ -20,22 +21,20 @@ class TabFirstDetailCoordinator: TabFirstDetailCoordinatorProtocol {
   
   var childCoordinators = [Coordinator]()
   
-  var type: CoordinatorType { .tab }
-  
   required init(_ navigationController: UINavigationController) {
     self.navigationController = navigationController
   }
   
   func start() {
-    showTabFirstDetailViewController()
+    showDetailViewController()
   }
   
   deinit {
-    print("TabFirstDetailCoordinator deinit")
+    print("DetailCoordinator deinit")
   }
   
-  func showTabFirstDetailViewController() {
-    let tabFirstDetailViewController = TabFirstDetailViewController()
+  func showDetailViewController() {
+    let tabFirstDetailViewController = DetailViewController()
     tabFirstDetailViewController.didSendEventClosure = { [weak self] in
       self?.finish()
     }

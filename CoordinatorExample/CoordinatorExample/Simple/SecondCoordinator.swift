@@ -17,10 +17,17 @@ class SecondCoordinator: CoordinatorOne {
     self.navigationController = navigationController
   }
   
+  deinit {
+    print("SecondCoordinator deinit")
+  }
+  
   func start() {
     let secondVC = SecondViewController()
     secondVC.coordinator = self
     navigationController.pushViewController(secondVC, animated: true)
   }
   
+  func finish() {
+    parentCoordinator?.popSecondVC(self)
+  }
 }

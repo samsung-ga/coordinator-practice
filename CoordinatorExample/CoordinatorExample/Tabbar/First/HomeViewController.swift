@@ -7,11 +7,11 @@
 
 import UIKit
 
-class TabFirstViewController: UIViewController {
+class HomeViewController: UIViewController {
   
-  var didSendEventClosure2Tab: ((TabFirstViewController.EventTab) -> Void)?
+  var didSendEventClosure2Tab: ((HomeViewController.EventTab) -> Void)?
   
-  var didSendEventClosure: ((TabFirstViewController.Event) -> Void)?
+  var didSendEventClosure: ((HomeViewController.Event) -> Void)?
   
   private lazy var button: UIButton = {
     let button = UIButton()
@@ -39,7 +39,7 @@ class TabFirstViewController: UIViewController {
   }
   
   deinit {
-    print("TabFirstViewController deinit")
+    print("HomeViewController deinit")
   }
   
   @objc
@@ -49,7 +49,7 @@ class TabFirstViewController: UIViewController {
   }
 }
 
-extension TabFirstViewController {
+extension HomeViewController {
   enum Event {
     case detail
   }

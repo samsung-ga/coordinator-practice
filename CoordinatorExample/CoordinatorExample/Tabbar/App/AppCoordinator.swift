@@ -18,8 +18,6 @@ class AppCoordinator: AppCoordinatorProtocol {
   var navigationController: UINavigationController
   
   var childCoordinators = [Coordinator]()
-
-  var type: CoordinatorType { .app }
   
   required init(_ navigationController: UINavigationController) {
     self.navigationController = navigationController
@@ -53,15 +51,13 @@ extension AppCoordinator: CoordinatorFinishDelegate {
   func coordinatorDidFinish(childCoordinator: Coordinator) {
     childCoordinators = childCoordinators.filter({ $0 !== childCoordinator })
     
-    switch childCoordinator.type {
-    case .login:
+    if childCoordinator is LoginCoordinator {
       navigationController.viewControllers.removeAll()
       showMainFlow()
-    case .tab:
+    } else {
       navigationController.viewControllers.removeAll()
       showLoginFlow()
-    default:
-      break
     }
+     
   }
 }

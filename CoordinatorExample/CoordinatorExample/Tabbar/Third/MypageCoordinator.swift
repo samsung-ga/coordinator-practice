@@ -7,19 +7,17 @@
 
 import UIKit
 
-protocol TabThirdCoordinatorProtocol: Coordinator {
-  func showTabThirdViewController()
+protocol MypageCoordinatorProtocol: Coordinator {
+  func showMypageViewController()
 }
 
-class TabThirdCoordinator: TabThirdCoordinatorProtocol {
+class MypageCoordinator: MypageCoordinatorProtocol {
  
   var finishDelegate: CoordinatorFinishDelegate?
   
   var navigationController: UINavigationController
   
   var childCoordinators = [Coordinator]()
-  
-  var type: CoordinatorType { .tab }
   
   required init(_ navigationController: UINavigationController) {
     self.navigationController = .init()
@@ -30,10 +28,10 @@ class TabThirdCoordinator: TabThirdCoordinatorProtocol {
   }
   
   deinit {
-    print("TabThirdCoordinator deinit")
+    print("MypageCoordinator deinit")
   }
   
-  func showTabThirdViewController() {
+  func showMypageViewController() {
     
   }
 

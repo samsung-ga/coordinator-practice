@@ -37,6 +37,10 @@ class MainViewController: UIViewController {
     ])
     
   }
+  
+  deinit {
+    print("MainViewController deinit")
+  }
 
 }
 

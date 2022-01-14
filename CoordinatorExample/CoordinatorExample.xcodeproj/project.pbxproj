@@ -16,15 +16,15 @@
 		D40E5394278AD96700DA2578 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E5393278AD96700DA2578 /* MainCoordinator.swift */; };
 		D40E5396278ADEE200DA2578 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E5395278ADEE200DA2578 /* SecondViewController.swift */; };
 		D40E5398278ADF0600DA2578 /* SecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E5397278ADF0600DA2578 /* SecondCoordinator.swift */; };
-		D40E539C278C018F00DA2578 /* TabFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E539B278C018F00DA2578 /* TabFirstViewController.swift */; };
-		D40E539E278C019F00DA2578 /* TabFirstCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E539D278C019F00DA2578 /* TabFirstCoordinator.swift */; };
+		D40E539C278C018F00DA2578 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E539B278C018F00DA2578 /* HomeViewController.swift */; };
+		D40E539E278C019F00DA2578 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E539D278C019F00DA2578 /* HomeCoordinator.swift */; };
 		D40E53A2278C02B200DA2578 /* CoordinatorTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E53A1278C02B200DA2578 /* CoordinatorTwo.swift */; };
-		D40E53A6278C03EB00DA2578 /* TabSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E53A5278C03EB00DA2578 /* TabSecondViewController.swift */; };
-		D40E53A8278C03F200DA2578 /* TabThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E53A7278C03F200DA2578 /* TabThirdViewController.swift */; };
-		D40E53AA278C03FE00DA2578 /* TabSecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E53A9278C03FE00DA2578 /* TabSecondCoordinator.swift */; };
-		D40E53AC278C040F00DA2578 /* TabThirdCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E53AB278C040F00DA2578 /* TabThirdCoordinator.swift */; };
-		D40E53B1278C0B0300DA2578 /* TabFirstDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E53B0278C0B0300DA2578 /* TabFirstDetailViewController.swift */; };
-		D40E53B3278C0B1000DA2578 /* TabFirstDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E53B2278C0B1000DA2578 /* TabFirstDetailCoordinator.swift */; };
+		D40E53A6278C03EB00DA2578 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E53A5278C03EB00DA2578 /* ListViewController.swift */; };
+		D40E53A8278C03F200DA2578 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E53A7278C03F200DA2578 /* MypageViewController.swift */; };
+		D40E53AA278C03FE00DA2578 /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E53A9278C03FE00DA2578 /* ListCoordinator.swift */; };
+		D40E53AC278C040F00DA2578 /* MypageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E53AB278C040F00DA2578 /* MypageCoordinator.swift */; };
+		D40E53B1278C0B0300DA2578 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E53B0278C0B0300DA2578 /* DetailViewController.swift */; };
+		D40E53B3278C0B1000DA2578 /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E53B2278C0B1000DA2578 /* DetailCoordinator.swift */; };
 		D4C2BDB5278D413600CDAFE2 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C2BDB4278D413600CDAFE2 /* Coordinator.swift */; };
 		D4C2BDBB278D470A00CDAFE2 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C2BDBA278D470A00CDAFE2 /* AppCoordinator.swift */; };
 		D4C2BDBD278D487500CDAFE2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C2BDBC278D487500CDAFE2 /* LoginViewController.swift */; };
@@ -46,15 +46,15 @@
 		D40E5393278AD96700DA2578 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		D40E5395278ADEE200DA2578 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D40E5397278ADF0600DA2578 /* SecondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCoordinator.swift; sourceTree = "<group>"; };
-		D40E539B278C018F00DA2578 /* TabFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabFirstViewController.swift; sourceTree = "<group>"; };
-		D40E539D278C019F00DA2578 /* TabFirstCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabFirstCoordinator.swift; sourceTree = "<group>"; };
+		D40E539B278C018F00DA2578 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D40E539D278C019F00DA2578 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		D40E53A1278C02B200DA2578 /* CoordinatorTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTwo.swift; sourceTree = "<group>"; };
-		D40E53A5278C03EB00DA2578 /* TabSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSecondViewController.swift; sourceTree = "<group>"; };
-		D40E53A7278C03F200DA2578 /* TabThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabThirdViewController.swift; sourceTree = "<group>"; };
-		D40E53A9278C03FE00DA2578 /* TabSecondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSecondCoordinator.swift; sourceTree = "<group>"; };
-		D40E53AB278C040F00DA2578 /* TabThirdCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabThirdCoordinator.swift; sourceTree = "<group>"; };
-		D40E53B0278C0B0300DA2578 /* TabFirstDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabFirstDetailViewController.swift; sourceTree = "<group>"; };
-		D40E53B2278C0B1000DA2578 /* TabFirstDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabFirstDetailCoordinator.swift; sourceTree = "<group>"; };
+		D40E53A5278C03EB00DA2578 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D40E53A7278C03F200DA2578 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
+		D40E53A9278C03FE00DA2578 /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		D40E53AB278C040F00DA2578 /* MypageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageCoordinator.swift; sourceTree = "<group>"; };
+		D40E53B0278C0B0300DA2578 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D40E53B2278C0B1000DA2578 /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
 		D4C2BDB4278D413600CDAFE2 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		D4C2BDBA278D470A00CDAFE2 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		D4C2BDBC278D487500CDAFE2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -143,8 +143,8 @@
 		D40E53AD278C042100DA2578 /* First */ = {
 			isa = PBXGroup;
 			children = (
-				D40E539D278C019F00DA2578 /* TabFirstCoordinator.swift */,
-				D40E539B278C018F00DA2578 /* TabFirstViewController.swift */,
+				D40E539D278C019F00DA2578 /* HomeCoordinator.swift */,
+				D40E539B278C018F00DA2578 /* HomeViewController.swift */,
 				D40E53B4278C0B1500DA2578 /* FirstDetail */,
 			);
 			path = First;
@@ -153,8 +153,8 @@
 		D40E53AE278C043100DA2578 /* Second */ = {
 			isa = PBXGroup;
 			children = (
-				D40E53A9278C03FE00DA2578 /* TabSecondCoordinator.swift */,
-				D40E53A5278C03EB00DA2578 /* TabSecondViewController.swift */,
+				D40E53A9278C03FE00DA2578 /* ListCoordinator.swift */,
+				D40E53A5278C03EB00DA2578 /* ListViewController.swift */,
 			);
 			path = Second;
 			sourceTree = "<group>";
@@ -162,8 +162,8 @@
 		D40E53AF278C043700DA2578 /* Third */ = {
 			isa = PBXGroup;
 			children = (
-				D40E53AB278C040F00DA2578 /* TabThirdCoordinator.swift */,
-				D40E53A7278C03F200DA2578 /* TabThirdViewController.swift */,
+				D40E53AB278C040F00DA2578 /* MypageCoordinator.swift */,
+				D40E53A7278C03F200DA2578 /* MypageViewController.swift */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -171,8 +171,8 @@
 		D40E53B4278C0B1500DA2578 /* FirstDetail */ = {
 			isa = PBXGroup;
 			children = (
-				D40E53B2278C0B1000DA2578 /* TabFirstDetailCoordinator.swift */,
-				D40E53B0278C0B0300DA2578 /* TabFirstDetailViewController.swift */,
+				D40E53B2278C0B1000DA2578 /* DetailCoordinator.swift */,
+				D40E53B0278C0B0300DA2578 /* DetailViewController.swift */,
 			);
 			path = FirstDetail;
 			sourceTree = "<group>";
@@ -283,28 +283,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D40E53AA278C03FE00DA2578 /* TabSecondCoordinator.swift in Sources */,
+				D40E53AA278C03FE00DA2578 /* ListCoordinator.swift in Sources */,
 				D40E53A2278C02B200DA2578 /* CoordinatorTwo.swift in Sources */,
 				D4C2BDC6278D5BF300CDAFE2 /* MainTabBarController.swift in Sources */,
 				D4C2BDB5278D413600CDAFE2 /* Coordinator.swift in Sources */,
 				D40E5392278AD92600DA2578 /* CoordinatorOne.swift in Sources */,
 				D4C2BDC4278D4ABF00CDAFE2 /* TabBarCoordinator.swift in Sources */,
-				D40E53A6278C03EB00DA2578 /* TabSecondViewController.swift in Sources */,
-				D40E53A8278C03F200DA2578 /* TabThirdViewController.swift in Sources */,
-				D40E53AC278C040F00DA2578 /* TabThirdCoordinator.swift in Sources */,
-				D40E53B1278C0B0300DA2578 /* TabFirstDetailViewController.swift in Sources */,
+				D40E53A6278C03EB00DA2578 /* ListViewController.swift in Sources */,
+				D40E53A8278C03F200DA2578 /* MypageViewController.swift in Sources */,
+				D40E53AC278C040F00DA2578 /* MypageCoordinator.swift in Sources */,
+				D40E53B1278C0B0300DA2578 /* DetailViewController.swift in Sources */,
 				D4C2BDC2278D49FD00CDAFE2 /* TabBarPage.swift in Sources */,
 				D4C2BDBD278D487500CDAFE2 /* LoginViewController.swift in Sources */,
 				D4C2BDBF278D489A00CDAFE2 /* LoginCoordinator.swift in Sources */,
-				D40E53B3278C0B1000DA2578 /* TabFirstDetailCoordinator.swift in Sources */,
+				D40E53B3278C0B1000DA2578 /* DetailCoordinator.swift in Sources */,
 				D40E5381278AD90D00DA2578 /* MainViewController.swift in Sources */,
 				D40E5398278ADF0600DA2578 /* SecondCoordinator.swift in Sources */,
 				D40E537D278AD90D00DA2578 /* AppDelegate.swift in Sources */,
 				D40E5396278ADEE200DA2578 /* SecondViewController.swift in Sources */,
 				D4C2BDBB278D470A00CDAFE2 /* AppCoordinator.swift in Sources */,
 				D40E5394278AD96700DA2578 /* MainCoordinator.swift in Sources */,
-				D40E539C278C018F00DA2578 /* TabFirstViewController.swift in Sources */,
-				D40E539E278C019F00DA2578 /* TabFirstCoordinator.swift in Sources */,
+				D40E539C278C018F00DA2578 /* HomeViewController.swift in Sources */,
+				D40E539E278C019F00DA2578 /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

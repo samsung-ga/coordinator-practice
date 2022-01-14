@@ -7,9 +7,9 @@
 
 import UIKit
 
-class TabThirdViewController: UIViewController {
+class MypageViewController: UIViewController {
   
-  var didSendEventClosure2TabCoordi: ((TabThirdViewController.Event) -> Void)?
+  var didSendEventClosure2TabCoordi: ((MypageViewController.Event) -> Void)?
   
   private lazy var button: UIButton = {
     let button = UIButton()
@@ -36,7 +36,7 @@ class TabThirdViewController: UIViewController {
   }
   
   deinit {
-    print("TabThirdViewController deinit")
+    print("MypageViewController deinit")
   }
   
   @objc
@@ -45,7 +45,7 @@ class TabThirdViewController: UIViewController {
   }
 }
 
-extension TabThirdViewController {
+extension MypageViewController {
   enum Event {
     case logout
   }

@@ -7,18 +7,16 @@
 
 import UIKit
 
-protocol TabSecondCoordinatorProtocol: Coordinator {
+protocol ListCoordinatorProtocol: Coordinator {
 
 }
-class TabSecondCoordinator: TabSecondCoordinatorProtocol {
+class ListCoordinator: ListCoordinatorProtocol {
  
   var finishDelegate: CoordinatorFinishDelegate?
   
   var navigationController: UINavigationController
   
   var childCoordinators = [Coordinator]()
-  
-  var type: CoordinatorType { .tab }
   
   required init(_ navigationController: UINavigationController) {
     self.navigationController = .init()
@@ -27,7 +25,7 @@ class TabSecondCoordinator: TabSecondCoordinatorProtocol {
   func start() { }
   
   deinit {
-    print("TabSecondCoordinator deinit")
+    print("ListCoordinator deinit")
   }
   
 

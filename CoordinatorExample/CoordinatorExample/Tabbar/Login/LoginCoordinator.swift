@@ -18,8 +18,6 @@ class LoginCoordinator: LoginCoordinatorProtocol {
   
   var childCoordinators = [Coordinator]()
   
-  var type: CoordinatorType { .login }
-  
   required init(_ navigationController: UINavigationController) {
     self.navigationController = navigationController
   }

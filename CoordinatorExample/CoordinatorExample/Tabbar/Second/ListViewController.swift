@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TabSecondViewController: UIViewController {
+class ListViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -16,7 +16,7 @@ class TabSecondViewController: UIViewController {
   }
   
   deinit {
-    print("TabSecondViewController deinit")
+    print("ListViewController deinit")
   }
   
 }

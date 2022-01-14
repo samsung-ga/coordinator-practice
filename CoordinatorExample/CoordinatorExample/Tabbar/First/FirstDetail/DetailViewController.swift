@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TabFirstDetailViewController: UIViewController {
+class DetailViewController: UIViewController {
   
   var didSendEventClosure: (() -> Void)?
   
@@ -18,6 +18,6 @@ class TabFirstDetailViewController: UIViewController {
   
   deinit {
     didSendEventClosure?()
-    print("TabFirstDetailViewController deinit")
+    print("DetailViewController deinit")
   }
 }

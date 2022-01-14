@@ -17,6 +17,9 @@ class MainCoordinator: CoordinatorOne {
     self.navigationController = navigationController
   }
   
+  deinit {
+    print("MainCoordinator deinit")
+  }
   func start() {
     let mainViewController = MainViewController()
     mainViewController.coordinator = self
@@ -28,7 +31,10 @@ class MainCoordinator: CoordinatorOne {
     secondCoordinator.parentCoordinator = self
     childCoordinators.append(secondCoordinator)
     secondCoordinator.start()
-    
+  }
+  
+  func popSecondVC(_ coordinator: CoordinatorOne) {
+    childCoordinators = childCoordinators.filter { $0 !== coordinator}
   }
 }
 

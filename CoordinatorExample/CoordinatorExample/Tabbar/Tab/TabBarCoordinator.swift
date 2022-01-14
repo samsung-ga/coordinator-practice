@@ -22,8 +22,6 @@ class TabCoordinator: NSObject, TabCoordinatorProtocol {
   
   var childCoordinators = [Coordinator]()
   
-  var type: CoordinatorType { .tab }
-  
   required init(_ navigationController: UINavigationController) {
     self.navigationController = navigationController
     self.tabBarController = MainTabBarController.init()
@@ -50,34 +48,21 @@ class TabCoordinator: NSObject, TabCoordinatorProtocol {
   }
   
   private func getTabController(_ page: TabBarPage) -> UINavigationController {
-    let navController = UINavigationController()
-    navController.setNavigationBarHidden(false, animated: false)
-    
-    navController.tabBarItem = UITabBarItem.init(title: page.pageTitleValue(),
-                                                 image: nil,
-                                                 tag: page.pageOrderNumber())
+    let navigationController = UINavigationController()
+    navigationController.setNavigationBarHidden(false, animated: false)
     
     switch page {
     case .home:
       // 홈만 따로 코디네이터를 만들어준 경우
-      let coordi = TabFirstCoordinator(navigationController)
+      let coordi = HomeCoordinator(navigationController)
       coordi.finishDelegate = self
-      
-      let (firstNavi, firstVC) = coordi.startWithViewController()
-      firstVC.didSendEventClosure2Tab = { [weak self] event in
-        switch event {
-        case .detail:
-          self?.showDetailViewController()
-        }
-      }
       childCoordinators.append(coordi)
-      return firstNavi
+      coordi.start()
     case .list:
-      let secondVC = TabSecondViewController()
-      
-      navController.pushViewController(secondVC, animated: true)
+      let secondVC = ListViewController()
+      navigationController.pushViewController(secondVC, animated: true)
     case .mypage:
-      let thirdVC = TabThirdViewController()
+      let thirdVC = MypageViewController()
       thirdVC.didSendEventClosure2TabCoordi = { [weak self] event in
         switch event {
         case .logout:
@@ -89,14 +74,14 @@ class TabCoordinator: NSObject, TabCoordinatorProtocol {
         }
       }
       
-      navController.pushViewController(thirdVC, animated: true)
+      navigationController.pushViewController(thirdVC, animated: true)
     }
     
-    return navController
+    return navigationController
   }
   
   func showDetailViewController() {
-    let detail = TabFirstDetailViewController()
+    let detail = DetailViewController()
     navigationController.pushViewController(detail, animated: true)
   }
   
